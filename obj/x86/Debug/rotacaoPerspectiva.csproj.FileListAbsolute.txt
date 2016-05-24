@@ -1,0 +1,141 @@
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmVisalizacao.resources
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+C:\Users\Homero Carvalho\Desktop\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmVisalizacao.resources
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+I:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotaciona.frmVisalizacao.resources
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+F:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotaciona.frmVisalizacao.resources
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+F:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotaciona.frmVisalizacao.resources
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+H:\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+G:\PROGRAMMING CURRENTE REPOSITÓRIO\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+G:\PROGRAMMING CURRENTE REPOSITÓRIO\Projetos C Sharp - REPOSITORIO CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+G:\PROG. CURRENTE DIR\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+G:\PROG. CURRENTE DIR\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotaciona.frmVisalizacao.resources
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+G:\C#-DIR. CURRENTE\PROJETOS SENDO TRABALHADOS\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotaciona.frmVisalizacao.resources
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+D:\PROJETOS Csharp ATUAL\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotaciona.frmVisalizacao.resources
+G:\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+D:\PROJETOS Csharp ATUAL - atualizado desde 18.12.2015\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+J:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+H:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+G:\PROJETOS DE PROGRAMAS C# ATUAL DESDE 27.01.2016\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+C:\Users\Usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+C:\Users\usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Desktop\PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+E:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache
+I:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csprojResolveAssemblyReference.cache
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.exe
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.pdb
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.exe
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\bin\Debug\rotacao3DparaFiguras2D.pdb
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.frmEntradaEHelp.resources
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.windowPerspectivas.resources
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacao3DparaFiguras2D.Properties.Resources.resources
+F:\0_PROGRAMAÇÃO CURRENTE DESDE 08.02.16\rotacao3DparaFiguras2D\obj\x86\Debug\rotacaoPerspectiva.csproj.GenerateResource.Cache

@@ -1,0 +1,94 @@
+PRIORIDADES:
+ATENÇÕES:
+**************************************************************************************************************************************
+INCREMENTOS:
+	1- IMPLEMENTAR UMA ESPÉCIE DE ANIMAÇÃO NO ESTILO MAYA, MAS SIMPLES, PARA FORMAR SPRITES ANIMADOS.
+	status atual desta funcionalidade: ENTRADA DE DADOS IMPLEMENTADA, FALTA IMPLEMENTAR:
+		2.1- A ENTRADA DO NÚMERO DE PASSOS PARA CADA ROTAÇÃO.
+		2.2- A GERAÇÃO DAS IMAGENS ROTACIONADAS.
+***************************************************************************************************************************************
+
+INCREMENTOS ENTREGUES PARCIALMENTE:
+	1- CONSTRUIR URGENTEMENTE UM HELP ASSOCIADO A JANELA DE IMAGEM, INCLUSIVE COM IMAGENS DE COMO FAZER COM OS EIXOS X E Z
+SEJA BEM CALCULADOS (SUAS DIMENSÕES E POSIÇÕES NA IMAGEM A SER PROCESSADA). FEITO, APENAS ATUALIZAR O SITE FORNECIDO NO HELP,
+PARA O SITE OFICIAL DO APLICATIVO. (TD CERTO, COM RESTRIÇÃO DE ATUALIZAÇÃO DO nome do site).Update: CRIADO TOOL TIP PARA CADA
+CONTROL DA JANELA PRINCIPAL, ESPERA-SE QUE A INTUIÇÃO APERFEIÇOE A CURVA DE APRENDIZADEM DO APLICATIVO.
+****************************************************************************************************************************************
+INCREMENTOS ENTREGUES:
+
+1- quero implantar um controle de mouse sobre o Gzimo eixos: 
+   (left click) seleciona um dos controles do Gzimo eixos (0->posição,1->rotação do ângulo omega,2->rotação do ângulo teta)
+
+	 0- (left click)  fixa a posição do Gzimo na posição do mouse.
+	    (right click) permite o Gzimo se movimentar novamente.
+
+	 1- (left click)  rotaciona positivamente a base XZ do Gzimo eixos.
+	    (right click) rotaciona negativamente a base XZ do Gzimo eixos.
+
+	 2- (left click)  rotaciona positivamente a base YZ do Gzimo eixos.
+		(right click) rotaciona negativamente a base YZ do Gzimo eixos.
+
+     3- (left click)  rotaciona positivamente a base XY do Gzimo eixos.
+	    (right click) rotaciona negativamente a base XY do Gzimo eixos.
+
+	 4- (left click)  rotaciona positivamente a base de cordenadas cilíndricas.
+	    (right click) rotaciona negativamente a base de cordenadas cilíndricas.
+
+	 5- (left click)  rotaciona positivamente o eixo de profundidade cordenadas cilíndricas.
+	    (right click) rotaciona negativamente o eixo de profundidade cordenadas cilíndricas.
+
+	 6- (left click) aumenta as dimensões do Gzimo eixos
+	    roda do mouse <0 diminui as dimensões do Gzimo eixos.	
+	IMPLEMENTAÇÃO FEITA, E TESTADA.
+2- quero passar as coordenadas de eixos 2D aparentes nos dois tipos de Gzimo para o frame principal, e quero também fazer o botão
+   rotacionar funcional, para os dois tipos de Gzimo. (td crt, fixado)
+
+3- CUIDADO AO ENTRAR A PROFUNDIDADE IMAGINADA PARA A CLASSE MATRIZ3DTOIMAGEM2D. O IDEAL SERIA FAZER UM CÁLCULO PRELIMINAR PARA VERIFICAR
+	A PROFUNDIDADE Z MÁXIMA. PRIORIDADE 5 (PARA ENTEGRAR A PRIMEIRA VERSÃO SÓ FALTA ISSO..)-> relatório: determinar profundidade máxima em 
+	andamento. a matriz está funcionando, mas é preciso também achar os valores mínimos das cordenadas da matriz. DETERMINAR OS VALORES
+	MÁXIMOS E MÍNIMOS PARA CADA COORDENADA, APLICAR NO DIMENSIONAMENTO DAS IMAGENS. --> PRIORIDADE 5. relatório 3: não é preciso calcular
+	automaticamente a profundidade z máxima, mas a profundidade máxima é cruscial para determinar a resolução da imagem, para não cortar
+	a imagem, aumenta-se 300% a 400% as dimensões da cena rotacionada, e depois recorta-se a imagem rotacionada e retorna a imagem recortada.
+
+4- FIQUE DE OLHO NO MÉTODO	RecortaImagem(imagemEntrada,imagemSaida), pois os limites podem estar invertidos. relatório 1: td crt, método
+	funcionando bem.
+
+5- verificar com mais testes se as rotações de matriz3DparaImagem2D é mesmo as rotações desejadas. Relatório 1: ao que tudo parece,
+	as rotações feitas pelo método são mesmo as desejadas (rotações de teste feitas no plano XY, com alguma ou pouca variação dos ângulos
+	para os planos XZ e YZ). Foi acrescentado também coordenadas mínimas de perspectiva isométrica, permitindo a rotação com eixos de coor-
+	denadas negativas. verificado na segunda semana de dez/2015, corrigido a determinação dos ângulos omega e teta, estava com eixos troca-
+	dos, falta verificar a mudança de base necessária para a rotação com ângulos absolutos.
+
+	6- testar as outras rotações, feitas com o Gzimo cruz, e testar com os Gzimos eixos a classe Matriz3DparaImagem2D,
+	mas os testes individualmente, sem a utilização do Gzimo, parecem ser ok.. - FEITO OBSOLETO NA NOVA WINDOW DE ROTAÇÕES,
+	POIS SOMENTE UTILIZA O Gzimo eixos-EIXOS
+
+6- VERIFICAR SE OS EIXOS SÃO ROTACIONADOS NA DIREÇÃO CERTA, AO QUE PARECE,ISTO NÃO ESTÁ ACONTECENDO, POIS
+   PARA ROTACIONAR EM UMA DIREÇÃO, É PRECISO INVERTER O SINAL. VERIFICA A MATRIZ DE COSSENOS DIRETORES.
+		6.1- O PROBLEMA DAS ROTAÇÕES DOS EIXOS PODE SER RESOLVIDO SE CENTRALIZARMOS A MATRIZ DO eixos QUE FORMA OS
+			VETORES DO GZIMO EIXOS, ROTACIONARMOS E DEPOIS DESCENTRALIZARMOS (TESTAR NO PRÓXIMO INCREMENTO, VERSÃO
+			PARA LANÇAMENTO DEPENDE SOMENTE DISSO).
+		6.2 - CENTRALIZAÇÃO E DESCENTRALIZAÇÃO FEITAS, MAS ERROS AINDA PERSISTEM. TALVEZ A ORIGEM DOS EIXOS
+			DEVESSE SER UM VETOR 3D. MAS É PRECISO INVESTIGAR MAIS..(EPÍLOGO: OS PLANOS QUE NÃO ESTAVAM ACOM-
+			PANHANDO A ROTAÇÃO DOS EIXOS ESTAVAM MULTIPLICADOS POR UMA BASE QUE ERAM OS PRÓPRIOS EIXOS, O QUE
+			NÃO PROCEDE, POIS OS PONTOS QUE FORMAM OS PLANOS JÁ ESTAVAM ROTACIONADOS, NÃO PRECISANDO DE MULTI-
+			PLICAR OS SEUS VETORES PELA BASE FORMADAS PELOS EIXOS, QUE TAMBÉM ESTAVAM ROTACIONADOS.
+		6.3 - PARECE QUE É UMA QUESTÃO DE ADAPTAÇÃO AO MODO DE ROTAÇÃO DOS EIXOS.
+
+7- TESTAR COM O Gzimo eixos A ROTAÇÃO COM ANGULO ABSOLUTO... PRIORIDADE 5, PARA FECHAR A VERSÃO ALFA... DEPOIS TESTAR O Gzimo CRUZ,
+   PARA USO COM A MATRIZ DE ROTAÇÃO E MAPEAMENTO... TESTE COM ANGULO ABSOLUTO TESTADO E CORRIGIDO O CÓDIGO. AGUARDANDO O TESTE   DOS
+   GzimoS (CRUZ E eixos). GZIMO CRUZ RETIRADO. TIPOS DE PERSPECTIVA: ISOMÉTRICA E GEOMÉTRICA. FALTA TESTAR O ÂNGULO ABSOLUTO COM O GZIMO
+   eixos. Teste feito, sucesso...Falta testar com os ângulos vindos do gzimo eixos.
+
+ 8- Tentar rotacionar os gzimos eixos com os textBox.Rotação do gzimo eixos pelo TextBox testada, td crt.
+
+ 9- Implementar o seguinte: as imagens dos planos funcionarão como botões seletores. Quando o usuário
+clica no botão, o plano no gzimo eixos é ativado/desativado. Situação atual: implementado, testado,
+td ctr.
+
+ 10 - MUDANÇA DOS CONTROLES DO GZIMO: LEFT/RIGHT CLICK: FIXA/DESFIXA O GZIMO EIXOS. RODA DO MOUSE: +/- EM TODOS OUTROS CONTROLES.
+testado, td. ctr. Incremento feito definitivamente.
+
+ 11- tipo de Ângulo (relativo, absoluto) modificado. Agora o tipo de Ângulo encontra-se na biblioteca [Matriz], e pode-se
+rotacionar o vetor levando-se em conta o tipo de ângulo.
+//********************************************************************************************************************************************

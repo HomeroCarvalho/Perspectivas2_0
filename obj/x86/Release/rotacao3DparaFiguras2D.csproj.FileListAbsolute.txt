@@ -1,0 +1,2 @@
+F:\projeto C# rotacao\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Release\rotacao3DparaFiguras2D.Properties.Resources.resources
+F:\projeto C# rotacao\rotacao3DparaFiguras2D\rotacao3DparaFiguras2D\obj\x86\Release\rotacao3DparaFiguras2D.csproj.GenerateResource.Cache
