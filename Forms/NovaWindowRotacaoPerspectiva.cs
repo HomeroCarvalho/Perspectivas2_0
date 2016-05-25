@@ -80,6 +80,7 @@ namespace rotacao3DparaFiguras2D
         private double rotacaoFinalCurrente = 0.0;
         private int numeroDeImagensCurrente = 0;
 
+        // lista de informações para faixas de rotação,utilizada na 2a. aba do frame principal.
         private List<infoAnimacaoRotacao> infoAnimacoes = new List<infoAnimacaoRotacao>();
         
 
@@ -120,8 +121,14 @@ namespace rotacao3DparaFiguras2D
                 if (svFlDlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     // salva a última imagem da listagem de imagens geradas.
-                    this.lstImgImagensRotacionar3D.Images[this.lstImgImagensRotacionar3D.Images.Count - 1].Save(
-                         Path.GetFullPath(svFlDlg.FileName));
+                    String nomeBaseFile = svFlDlg.FileName.Split(new String[] { "." },StringSplitOptions.RemoveEmptyEntries)[0];
+                    String tipoImagem = svFlDlg.FileName.Split(new String[] { "." }, StringSplitOptions.RemoveEmptyEntries)[1];
+                    for (int x = 0; x < this.lstImgImagensRotacionar3D.Images.Count; x++)
+                    {
+                        // salva todas imagens da lista de imagens geradas pelo aplicativo.
+                        this.lstImgImagensRotacionar3D.Images[this.lstImgImagensRotacionar3D.Images.Count - 1].Save(
+                             Path.GetFullPath(nomeBaseFile+x+"."+tipoImagem));
+                    } // for x
                     this.mostraMensagem("imagem salva com sucesso.");
                 } // if svFlDlg.ShowDialog()
             } // try
@@ -170,7 +177,7 @@ namespace rotacao3DparaFiguras2D
                         // inicializa a combo box de bases guardadas.
                         this.cmbBxBasesGuardadas.Items.Clear();
 
-                        // prepara a lista das imagens gerada pelo aplicativo.
+                        // limpa a lista das imagens geradas pelo aplicativo.
                         this.lstImgImagensRotacionar3D.Images.Clear();
 
                         // inicializa as combo box de tipo de perspectiva e tipo de ângulo.
@@ -543,9 +550,26 @@ namespace rotacao3DparaFiguras2D
                     _perspectiva=vetor3.transformacaoPerspectivaIsometrica;
                 if (cmbBxTipoPerspectiva.SelectedIndex==1)
                     _perspectiva=vetor3.transformacaoPerspectivaGeometrica;
-                this.infoAnimacoes.Add(new infoAnimacaoRotacao(this.rotacaoInicialCurrente, this.rotacaoFinalCurrente,
+
+                infoAnimacaoRotacao.planosRotacao planoRot;
+                switch (planoDeRotacaoCurrente)
+                {
+                    case (0):
+                        planoRot = infoAnimacaoRotacao.planosRotacao.XY;
+                        break;
+                    case (1):
+                        planoRot = infoAnimacaoRotacao.planosRotacao.XZ;
+                        break;
+                    case (2):
+                        planoRot = infoAnimacaoRotacao.planosRotacao.YZ;
+                        break;
+                    default:
+                        planoRot = infoAnimacaoRotacao.planosRotacao.XY;
+                        break;
+                }
+                this.infoAnimacoes.Add(new infoAnimacaoRotacao(faixaRotacoes[0], faixaRotacoes[1],
                                                                numeroDeImagensCurrente,
-                                                               planoDeRotacaoCurrente,
+                                                               planoRot,
                                                                this.cena,
                                                                80.0,
                                                                2.0,
@@ -648,14 +672,29 @@ namespace rotacao3DparaFiguras2D
                     _limitesRotacao[1] = double.Parse(strmRdtr.ReadLine());
                     int _numeroDeImagens = int.Parse(strmRdtr.ReadLine());
                     int _planoDeRotacao = int.Parse(strmRdtr.ReadLine());
-                    
+                    infoAnimacaoRotacao.planosRotacao planoRot;
+                    switch (_planoDeRotacao)
+                    {
+                        case 0:
+                            planoRot = infoAnimacaoRotacao.planosRotacao.XY;
+                            break;
+                        case 1:
+                            planoRot = infoAnimacaoRotacao.planosRotacao.XZ;
+                            break;
+                        case 2:
+                            planoRot = infoAnimacaoRotacao.planosRotacao.YZ;
+                            break;
+                        default:
+                            planoRot = infoAnimacaoRotacao.planosRotacao.XY;
+                            break;
+                    } // switch _planoDeRotacao
 
                     // inicia uma infoAnimacao.
                     infoAnimacaoRotacao infoAnim = new infoAnimacaoRotacao(
                                                             _limitesRotacao[0],
                                                             _limitesRotacao[1],
                                                              _numeroDeImagens,
-                                                             _planoDeRotacao,
+                                                             planoRot,
                                                              this.cena,
                                                               80.0,
                                                               2.0,
@@ -671,6 +710,7 @@ namespace rotacao3DparaFiguras2D
                     // guarda a faixa de rotações no componente visual.
                     List<string> lstTmpRotacoesGuardadas = new List<string>();
                     lstTmpRotacoesGuardadas = this.txtBxRotacoesGuardadas.Lines.ToList<string>();
+                    // guarda a recém carregada [infoAnimacoes] na lista temporária de faixa de rotações.
                     lstTmpRotacoesGuardadas.Add(this.infoAnimacoes[this.infoAnimacoes.Count-1].ToString());
                     // redimensiona as linhas do componente visual.
                     this.txtBxRotacoesGuardadas.Lines = lstTmpRotacoesGuardadas.ToArray<string>();
@@ -689,7 +729,22 @@ namespace rotacao3DparaFiguras2D
         /// <param name="e">parâmetro de evento.</param>
         private void btnGeraImagens_Click(object sender, EventArgs e)
         {
-            throw new Exception("funcionalidade não implementada ainda!");
+            if ((this.infoAnimacoes==null) || (this.infoAnimacoes.Count==0))
+            {
+                MessageBox.Show("Não há faixa de rotação para ser aplicada.");
+                return;
+            }
+            infoAnimacaoRotacao lastInfo = this.infoAnimacoes[this.infoAnimacoes.Count - 1];
+            //gera as imagens a partir da última faixa de rotação.
+            List<Bitmap> lstImgs=lastInfo.geraImagens(new vetor3(1.0, 0.0, 0.0), new vetor3(0.0, 1.0, 0.0), new vetor3(0.0, 0.0,1.0));
+            // adiciona as imagens geradas à lista a ser mostrada na tela.
+            this.lstImgImagensRotacionar3D.Images.AddRange(lstImgs.ToArray());
+            // redimensiona para o tamanho padrão.
+            this.lstImgImagensRotacionar3D.ImageSize = this.szImgPadrao;
+            // redesenha o frame da window currente.    
+            this.Refresh();
+
+
         } // btnGeraImagens_Click()
 
         /// <summary>
@@ -810,15 +865,21 @@ namespace rotacao3DparaFiguras2D
                                     ctrViewRotacao.gzimosCurrentes[0].eixoXGzimo,
                                     ctrViewRotacao.gzimosCurrentes[0].eixoYGzimo,
                                     ctrViewRotacao.gzimosCurrentes[0].eixoZGzimo,
-                                    this.cena, this.profundidadeImaginada, this.fatorPerspectiva,
-                    vetor3.transformacaoPerspectivaIsometrica, ref msgErro);
+                                    this.cena,
+                                    this.profundidadeImaginada,
+                                    this.fatorPerspectiva,
+                                    vetor3.transformacaoPerspectivaIsometrica,
+                                    ref msgErro);
             if (this.cmbBxTipoPerspectiva.SelectedIndex == 1)
                 this.mtx3Dto2D.iniciaMatriz3D(
                                     ctrViewRotacao.gzimosCurrentes[0].eixoXGzimo,
                                     ctrViewRotacao.gzimosCurrentes[0].eixoYGzimo,
                                     ctrViewRotacao.gzimosCurrentes[0].eixoZGzimo,
-                                    this.cena, this.profundidadeImaginada, this.fatorPerspectiva,
-                                    vetor3.transformacaoPerspectivaGeometrica, ref msgErro);
+                                    this.cena,
+                                    this.profundidadeImaginada,
+                                    this.fatorPerspectiva,
+                                    vetor3.transformacaoPerspectivaGeometrica,
+                                    ref msgErro);
             if (msgErro != "")
             {
                 this.mostraMensagem(msgErro);
@@ -894,16 +955,41 @@ namespace rotacao3DparaFiguras2D
                         ref this.profundidadeImaginada);
         } // txtBxAlturaImaginada_Validated()
 
+        /// <summary>
+        /// limpa a lista de imagens já geradas pelo aplicativo, na TabPage-0.
+        /// </summary>
+        /// <param name="sender">parâmetro de evento.</param>
+        /// <param name="e">parâmetro de evento.</param>
+        private void btnLimparListaDeImagensPage1_Click(object sender, EventArgs e)
+        {
+            this.lstImgImagensRotacionar3D.Images.Clear();
+            this.Refresh();
+        } // btnLimparListaDeImagensPage1_Click()
+
+
+        /// <summary>
+        /// limpa a lista de imagens já geradas pelo aplicativo, na TabPage-1.
+        /// </summary>
+        /// <param name="sender">parâmetro de evento.</param>
+        /// <param name="e">parâmetro de evento.</param>
+        private void btnLimparImagensGeradasPage0_Click(object sender, EventArgs e)
+        {
+            this.lstImgImagensRotacionar3D.Images.Clear();
+            this.Refresh();
+        } // btnLimparListaDeImagensPage0_Click()
+
+
     } // class windowPerspectivas
     /// <summary>
     /// guarda as informações para uma faixa de rotação para animação.
     /// </summary>
     class infoAnimacaoRotacao
     {
+        public enum planosRotacao{XY,YZ,XZ };
         public double limiteMinInfo { get; set; }
         public double limiteMaxInfo { get; set; }
         public int numeroDeImagens { get; set; }
-        public int planoRotacao { get; set; }
+        public planosRotacao planoRotacao { get; set; }
         public Bitmap imagem { get; set; }
         public double profundidade { get; set; }
         public double fatorPerspectiva { get; set; }
@@ -916,7 +1002,7 @@ namespace rotacao3DparaFiguras2D
         /// <param name="limiteMax">limite máximo para rotacionar a animação.</param>
         /// <param name="numImgs">número de imagens a serem geradas no limite da animação.</param>
         /// <param name="pl">plano de rotação para esta informação de animação-rotação.</param>
-        public infoAnimacaoRotacao(double limiteMin, double limiteMax, int numImgs, int pl,
+        public infoAnimacaoRotacao(double limiteMin, double limiteMax, int numImgs, planosRotacao pl,
             Bitmap _imagem, double _profundidadeImagem, double _fatorPerspectiva,
             Matriz3DparaImagem2D.transformacaoPerspectiva _perspectiva, bool angulosAbsolutos)
         {
@@ -935,11 +1021,28 @@ namespace rotacao3DparaFiguras2D
         {
             // guarda o nome do plano de rotação, conforme o índice.
              string[] strPlanoRotacao= new string[]{"XY","XZ","YZ"};
+            string planoRot = "";
+            switch (this.planoRotacao)
+            {
+                case (planosRotacao.XY):
+                    planoRot = "XY";
+                    break;
+                case (planosRotacao.XZ):
+                    planoRot = "XZ";
+                    break;
+                case (planosRotacao.YZ):
+                    planoRot="YZ";
+                    break;
+                default:
+                    planoRot = "";
+                    break;
+            } // switch planoRotacao
+
             // inicializa uma string contendo os dados da infoAnimacao.
             string str = "ini: " + this.limiteMinInfo.ToString("N1") + 
                        " fini: " + this.limiteMaxInfo.ToString("N1") +
                        ",  " + this.numeroDeImagens + " imagens "+
-                       "( plano de rotação " + strPlanoRotacao[this.planoRotacao] + ").";
+                       "( plano de rotação " + planoRot + ").";
             return str;
         } // string ToString()
 
@@ -964,18 +1067,18 @@ namespace rotacao3DparaFiguras2D
             double omegaX = 0.0;
             double omegaY = 0.0;
             double omegaZ = 0.0;
-            if (this.planoRotacao == 0)
+            if (this.planoRotacao == planosRotacao.XY)
                 omegaZ = incAngulo;
-            if (this.planoRotacao == 1)
+            if (this.planoRotacao == planosRotacao.XZ)
                 omegaY = incAngulo;
-            if (this.planoRotacao == 2)
+            if (this.planoRotacao == planosRotacao.YZ)
                 omegaX = incAngulo;
             for (int n = 0; n < numeroDeImagens; n++)
             {
                 msgErro="";
-                imagens.Add(matrizImagem.rotacionaMatriz3D(new vetor3(1.0, 0.0, 0.0),
-                                                           new vetor3(0.0, 1.0, 0.0),
-                                                           new vetor3(0.0, 0.0, 1.0),
+                imagens.Add(matrizImagem.rotacionaMatriz3D(eixoX,
+                                                           eixoY,
+                                                           eixoZ,
                                                            this.imagem,
                                                            (int)this.profundidade,
                                                            omegaZ,
